@@ -1,6 +1,6 @@
 # Plugin Hub submission preparation
 
-Prepared locally; no public repository, release or pull request has been created.
+Source is published at https://github.com/Rossyboiz/wise-old-man-companion for review. No Plugin Hub approval has been granted; the user-run acceptance checklist remains pending.
 
 ## Candidate changes
 
@@ -19,8 +19,8 @@ Review the local mesh export and retained third-party attribution too. No captur
 ## Before submitting
 
 1. Complete and record the user-run manual tests.
-2. Confirm public author name and GitHub repository ownership.
-3. Publish a clean public source repository. Provide reviewable bridge source or a public reference if requested; exclude credentials and account files.
+2. Public author credit and repository owner are Rossyboiz. Source commits use GitHub no-reply identities.
+3. The curated source repository is public. Provide reviewable bridge source or a public reference if reviewers request it; exclude credentials and account files.
 4. Build against current RuneLite dependencies. Local checks are not a Plugin Hub CI result or approval.
 5. Create `plugins/wise-old-man-companion` in a fork of `runelite/plugin-hub`, with real values:
 

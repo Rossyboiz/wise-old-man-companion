@@ -2,7 +2,7 @@
 
 An opt-in, read-only RuneLite plugin that exports observations about **your own character** to local JSON files for a separate companion dashboard.
 
-This is an unpublished release candidate. It is not an approved Plugin Hub release and is not affiliated with Jagex or RuneLite.
+This is a release candidate published for review, not an approved Plugin Hub release. It is not affiliated with Jagex or RuneLite.
 
 ## Features and consent
 
@@ -55,4 +55,4 @@ Unit/build success is not an in-game test. Complete the [manual acceptance check
 
 Project code is BSD-2-Clause with retained [third-party notices](THIRD-PARTY-NOTICES.md). RuneScape assets and names remain subject to their owners' rights. No captured meshes, account files or credentials belong in this repository.
 
-See [submission preparation](docs/SUBMISSION.md) for review scope and outstanding steps. Nothing has been published or approved.
+See [submission preparation](docs/SUBMISSION.md) for review scope and outstanding steps. Plugin Hub approval has not been granted.
