@@ -1,0 +1,24 @@
+.gradle
+build
+.idea/
+.project
+.settings/
+.classpath
+nbactions.xml
+nb-configuration.xml
+nbproject/
+*.class
+# Personal observations, credentials and generated output never belong in a submission.
+.runelite/
+.env
+.env.*
+*.log
+*.tmp
+*.obj
+*.mtl
+*.glb
+**/snapshot.json
+**/account-items.json
+**/credentials.properties
+**/token.txt
+out/
