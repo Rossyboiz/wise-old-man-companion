@@ -5,7 +5,7 @@ Source is published at https://github.com/Rossyboiz/wise-old-man-companion for r
 ## Candidate changes
 
 - Real metadata and release-candidate version; `CompanionSyncPlugin` and `CompanionDevLauncher` replace the draft class names.
-- Disabled by default on new installs. Existing display/internal name, enable key and data directory remain unchanged.
+- Enabled on explicit installation, following Plugin Hub review feedback. Existing display/internal name, enable key and data directory remain unchanged.
 - Unused greeting config and legacy OBJ writer removed from active source.
 - Java 11 target, standard Hub build and reproducible archives; no added runtime dependencies.
 - Root and binary-packaged licenses, privacy disclosure and manual acceptance checklist.
@@ -33,7 +33,7 @@ commit=<actual full 40-character commit SHA>
 
 ## Draft PR description
 
-Wise Old Man Companion exports read-only observations about the local player to RuneLite-managed local files for an optional companion dashboard: inventory/equipment, observed bank, skills/XP, quests, GE offer observations, credited loot/counts and the local model. New installations start disabled. There are no network calls, listening server, game inputs or subprocesses in the plugin.
+Wise Old Man Companion exports read-only observations about the local player to RuneLite-managed local files for an optional companion dashboard: inventory/equipment, observed bank, skills/XP, quests, GE offer observations, credited loot/counts and the local model. Explicit installation enables local exports; users can disable the plugin at any time. There are no network calls, listening server, game inputs or subprocesses in the plugin.
 
 The intended separate bridge reads those files and forwards observations to the owner's Pi. This integration is disclosed for review; maintainer guidance is requested on its acceptability under the HTTP/player-information restriction. The existing development enable key and file location are retained. Attach actual automated results and user acceptance evidence before requesting approval.
 

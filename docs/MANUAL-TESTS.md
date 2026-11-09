@@ -3,7 +3,7 @@
 Only the user performs login and game inputs. Automated checks cannot establish in-game behavior.
 
 1. Launch with `gradlew run`; use RuneLite's official Jagex Account sidebar login and select the Ironman. Do not copy authentication tokens into scripts.
-2. In a fresh plugin configuration, verify it starts disabled and produces no new files. Enable it; verify new observation times reach the dashboard through the separate bridge.
+2. In a fresh plugin configuration, verify explicit installation enables local exports. Disable it and verify no new observations are written; re-enable it and verify new observation times reach the dashboard through the separately started bridge.
 3. Manually change equipment. Confirm the model and gear correspond to the same revision.
 4. Gain XP manually. Check skill/goal updates and that login XP was not counted as a training gain.
 5. Open the bank. Check stacks, noted items and an untradeable item; then close it and verify the bank's last-seen timestamp stays explicit.

@@ -52,7 +52,6 @@ import net.runelite.client.util.Text;
     internalName = "wise-old-man-companion",
     description = "Exports your own account observations to local files for an optional companion dashboard",
     configName = "wiseoldmancompanionplugin",
-    enabledByDefault = false,
     tags = {"companion", "ironman", "bank", "goals", "local", "export"}
 )
 public class CompanionSyncPlugin extends Plugin

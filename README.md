@@ -6,7 +6,7 @@ This is a release candidate published for review, not an approved Plugin Hub rel
 
 ## Features and consent
 
-The plugin exports inventory/equipment, last-observed bank contents, skill levels/XP, observed quest states, GE offer observations, credited loot/counts and your local character model/combat setup. It is disabled by default on new installs. Enabling **Wise Old Man Companion** in RuneLite's plugin list opts into these local exports. Existing development users retain their previous enabled setting.
+The plugin exports inventory/equipment, last-observed bank contents, skill levels/XP, observed quest states, GE offer observations, credited loot/counts and your local character model/combat setup. Installing **Wise Old Man Companion** from the Plugin Hub enables these local exports. You can disable it in RuneLite's plugin list at any time. Existing development users retain their previous enabled setting.
 
 It does not control the game, click, attack, trade, change prayers or send chat. It does not make network requests, run an HTTP server, launch programs or accept dashboard commands.
 
