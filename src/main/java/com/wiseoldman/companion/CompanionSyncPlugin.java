@@ -48,8 +48,8 @@ import net.runelite.client.util.Text;
 
 @Slf4j
 @PluginDescriptor(
-    name = "Wise Old Man Companion",
-    internalName = "wise-old-man-companion",
+    name = "Rossy's Companion Link",
+    internalName = "rossys-companion-link",
     description = "Exports your own account observations to local files for an optional companion dashboard",
     configName = "wiseoldmancompanionplugin",
     tags = {"companion", "ironman", "bank", "goals", "local", "export"}

@@ -1,4 +1,10 @@
-# Wise Old Man Companion
+# Rossy's Companion Link
+
+## Rename and bridge transition
+
+This is the renamed submission following Plugin Hub PR #20397, which was closed because the previous public name conflicted with an existing plugin. The source repository and Java package retain their original paths for history; the public name is Rossy's Companion Link.
+
+This candidate writes to `plugin-data/rossys-companion-link/`. Older development clients write to `plugin-data/wise-old-man-companion/`. The separate bridge must be configured to read the new folder when switching to this candidate; existing files are not moved or deleted by the plugin. The enable key remains `wiseoldmancompanionplugin` to preserve the saved toggle. Do not run the old and new clients concurrently against the same bridge.
 
 An opt-in, read-only RuneLite plugin that exports observations about **your own character** to local JSON files for a separate companion dashboard.
 
@@ -6,14 +12,14 @@ This is a release candidate published for review, not an approved Plugin Hub rel
 
 ## Features and consent
 
-The plugin exports inventory/equipment, last-observed bank contents, skill levels/XP, observed quest states, GE offer observations, credited loot/counts and your local character model/combat setup. Installing **Wise Old Man Companion** from the Plugin Hub enables these local exports. You can disable it in RuneLite's plugin list at any time. Existing development users retain their previous enabled setting.
+The plugin exports inventory/equipment, last-observed bank contents, skill levels/XP, observed quest states, GE offer observations, credited loot/counts and your local character model/combat setup. Installing **Rossy's Companion Link** from the Plugin Hub enables these local exports. You can disable it in RuneLite's plugin list at any time. Existing development users retain their previous enabled setting.
 
 It does not control the game, click, attack, trade, change prayers or send chat. It does not make network requests, run an HTTP server, launch programs or accept dashboard commands.
 
 The plugin writes only within its RuneLite-managed directory, normally:
 
 ```text
-~/.runelite/plugin-data/wise-old-man-companion/
+~/.runelite/plugin-data/rossys-companion-link/
     snapshot.json
     account-items.json
 ```

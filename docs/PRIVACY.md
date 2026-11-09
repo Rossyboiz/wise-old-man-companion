@@ -23,7 +23,7 @@ The current account-advice comparison runs on the Pi; the complete snapshot is n
 
 ## Retention and isolation
 
-- Explicit installation enables local exports; disable the plugin to stop future exports. Existing development enable settings and data-directory paths are retained.
+- Explicit installation enables local exports; disable the plugin to stop future exports. The existing development enable key is retained. This renamed candidate uses plugin-data/rossys-companion-link; older development exports remain in plugin-data/wise-old-man-companion.
 - Disabling stops new captures and requests worker shutdown; an already-started write may finish. Existing JSON remains.
 - Logging out does not erase files. The receiver must display last-seen times and handle stale data.
 - Account switches reset bank/quest/goal baselines in memory. The new account's bank must be observed.

@@ -5,7 +5,7 @@ Source is published at https://github.com/Rossyboiz/wise-old-man-companion for r
 ## Candidate changes
 
 - Real metadata and release-candidate version; `CompanionSyncPlugin` and `CompanionDevLauncher` replace the draft class names.
-- Enabled on explicit installation, following Plugin Hub review feedback. Existing display/internal name, enable key and data directory remain unchanged.
+- Enabled on explicit installation, following Plugin Hub review feedback. Public name and Hub identifier are Rossy's Companion Link / rossys-companion-link; the existing enable key remains unchanged.
 - Unused greeting config and legacy OBJ writer removed from active source.
 - Java 11 target, standard Hub build and reproducible archives; no added runtime dependencies.
 - Root and binary-packaged licenses, privacy disclosure and manual acceptance checklist.
@@ -22,7 +22,7 @@ Review the local mesh export and retained third-party attribution too. No captur
 2. Public author credit and repository owner are Rossyboiz. Source commits use GitHub no-reply identities.
 3. The curated source repository is public. Provide reviewable bridge source or a public reference if reviewers request it; exclude credentials and account files.
 4. Build against current RuneLite dependencies. Local checks are not a Plugin Hub CI result or approval.
-5. Create `plugins/wise-old-man-companion` in a fork of `runelite/plugin-hub`, with real values:
+5. Create `plugins/rossys-companion-link` in a fork of `runelite/plugin-hub`, with real values:
 
 ```text
 repository=<public HTTPS Git repository URL>
@@ -33,9 +33,9 @@ commit=<actual full 40-character commit SHA>
 
 ## Draft PR description
 
-Wise Old Man Companion exports read-only observations about the local player to RuneLite-managed local files for an optional companion dashboard: inventory/equipment, observed bank, skills/XP, quests, GE offer observations, credited loot/counts and the local model. Explicit installation enables local exports; users can disable the plugin at any time. There are no network calls, listening server, game inputs or subprocesses in the plugin.
+Rossy's Companion Link exports read-only observations about the local player to RuneLite-managed local files for an optional companion dashboard: inventory/equipment, observed bank, skills/XP, quests, GE offer observations, credited loot/counts and the local model. Explicit installation enables local exports; users can disable the plugin at any time. There are no network calls, listening server, game inputs or subprocesses in the plugin.
 
-The intended separate bridge reads those files and forwards observations to the owner's Pi. This integration is disclosed for review; maintainer guidance is requested on its acceptability under the HTTP/player-information restriction. The existing development enable key and file location are retained. Attach actual automated results and user acceptance evidence before requesting approval.
+The intended separate bridge reads those files and forwards observations to the owner's Pi. This integration is disclosed for review; maintainer guidance is requested on its acceptability under the HTTP/player-information restriction. The existing development enable key is retained; bridge consumers must use the new rossys-companion-link data folder. Attach actual automated results and user acceptance evidence before requesting approval.
 
 ## Official references
 

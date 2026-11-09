@@ -28,7 +28,7 @@ dependencies {
 }
 
 group = 'com.wiseoldman.companion'
-version = '0.1.0-rc1'
+version = '0.1.0-rc2'
 
 tasks.withType(JavaCompile).configureEach {
 	options.encoding = 'UTF-8'
